@@ -13,6 +13,8 @@ The goal is to do minimal actual coding, and try to accomplish things I wouldn't
 - interactive art things
 - AI telling me how to wire up complex circuit projects
 - AI generating different types of graphical content
+- AI writing proposals, descriptions, artist statements, etc.
+- in general making a more fun AI playground
 
 # What I don't want to do
 - create at that looks like AI hallucinations
