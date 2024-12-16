@@ -1,8 +1,6 @@
-# Making Graphics
+# Interactive Art
 
-- Generating different types of file formats, eg stl, svg, etc
-- Generating animations
-- binary? Text formats?
-
-
+- generating arduino code 
+- physical computing
+- AI telling me how to wire up complex circuit projects
 

@@ -1,8 +1,5 @@
-# Making Graphics
+# Giving AI Power
 
-- Generating different types of file formats, eg stl, svg, etc
-- Generating animations
-- binary? Text formats?
-
-
+- running commands on the terminal
+- AI doing stuff on the browser
 
