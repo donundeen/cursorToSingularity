@@ -24,7 +24,7 @@
     document.addEventListener('mousemove', (e) => {
         //rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,1) 100%);
 //        overlay.style.maskImage = `radial-gradient(circle at ${e.clientX}px ${e.clientY}px, transparent 40px, black 40px)`;
-        overlay.style.maskImage = `radial-gradient(circle at ${e.clientX}px ${e.clientY}px, rgba(0,0,0,0) 40px, rgba(100,0,0,0.5) 40px, rgba(0,0,0,1) 40px)`;
+        overlay.style.maskImage = `radial-gradient(circle at ${e.clientX}px ${e.clientY}px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 60px)`;
 
 //        overlay.style.maskPosition = `${e.clientX}px ${e.clientY}px`; // Center the mask over the cursor
     });
