@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Spotlight",
+    "version": "1.0",
+    "description": "Blanks out the screen, with a small spotlight on the cursor.",
+    "permissions": ["activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["libs/jquery.3.7.1.min.js", "libs/jquery-ui.min.js", "content.js"]
+        }
+    ]
+}
